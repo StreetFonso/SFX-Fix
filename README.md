@@ -15,6 +15,7 @@ Assim, os seguintes "enginesounds" ficam disponíveis:
 - 13 para helicópteros;
 - 9 para avião (esse tem 4 slots, sendo os dois primeiros idênticos ao 54);
 - 111, 110 para carro RC.
+
 O que descobri sobre o índice dos arquivos de áudio extraídos com o Alci's SAAT?
 No exemplo abaixo extraído do arquivo "GENRL/sfx_import.ini":
 [Bank_008]
