@@ -7,6 +7,7 @@ Ainda estou estudando para tentar mexer nas falas dos NPC's. Nesta primeira vers
 - Corrigidos os "enginesounds" da Faggio para que funcionem com veículos adicionados que usem seus sons;
 - Adicionados os "enginesounds" da PCJ-600 do VCS nos 23,22;
 - Adicionados cinco novas buzinas (id's 13 à 18), porém ainda não sei como fazer funcionar um id maior que "9".
+
 Assim, os seguintes "enginesounds" ficam disponíveis:
 - 15, 14; 43, 42; 50, 49; 56, 55; 73, 72; 91, 90; 97, 96; 117, 116 e 123, 122 para carros/caminhões;
 - 23, 22 para motos;
