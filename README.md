@@ -40,11 +40,11 @@ Se "sound_00#.unknown_32" é "0", então o jogo fará o looping com o som inteir
 Para descobrir a posição da amostra, é preciso importar o som num editor de áudio como o Audacity, selecionar até a posição desejada, criar uma nova faixa mono com a mesma freqüência da original, colar o pedaço do tamanho da posição da amostra e alterar a freqüência para 44100Hz. Nisso, o tamanho será reduzido, conseqüentemente deixando o som acelerado, pois a freqüência aumentou, mas o que interessa é que o novo tamanho é a nova posição da amostra. Acho que essa conversão é uma regra de três composta inversamente proporcional, mas ainda não consegui expressá-la matematicamente.
 
 O "sound_00#.unknown_16" desconfio fortemente que é a posição da amostra inicial, o "A" do exemplo acima.
-Para os tipos car, bike, quad e m_truck, o jogo usa dois bancos de som, sendo o primeiro com três (aceleração, alta rotação e desaceleração) e o segundo com dois slots (ponto morto e debriar).
+Para os tipos car, bike, quad e m_truck, o jogo usa dois bancos de som, sendo o primeiro com três (aceleração, alta rotação e desaceleração) e o segundo com dois slots (ponto morto e debrear).
 
 Para os tipos boat, heli, plane e bmx o jogo usa um banco de som com dois slots (alta rotação e ponto morto).
 
-Para um carro RC, o jogo usa dois bancos de som, sendo o primeiro com três slots (aceleração, alta rotação e desaceleração) e o segundo com um slot (debriar).
+Para um carro RC, o jogo usa dois bancos de som, sendo o primeiro com três slots (aceleração, alta rotação e desaceleração) e o segundo com um slot (debrear).
 
 Não testei para os tipos trailer e train.
 
