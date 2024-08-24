@@ -1,7 +1,7 @@
 # SFX-Fix
 Correções e adições nos índices SFX do GTA San Andreas.
 Esta modificação praticamente nada faz no jogo. Ela serve mais para outros mods que podem mudar os id's originais dos sons do jogo, como VehFuncs e FLA.
-Para instalá-la, basta botar no Modloader.
+Para instalá-la, basta botar numa pasta dentro do Modloader.
 Ainda estou estudando para mexer nas falas dos NPC's. Nesta primeira versão, somente mexi no GENRL, e foi o seguinte:
 - Corrigidos os "enginesounds" de carro/caminhão 15, 14; 56, 55; 91, 90; 97, 96 e 123, 122;
 - Corrigidos os "enginesounds" da Faggio para que funcionem com veículos adicionados que usem seus sons;
