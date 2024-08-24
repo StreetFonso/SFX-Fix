@@ -52,7 +52,7 @@ A diferença entre o id do "enginesounds" e o "Bank_###" é "6". Por exemplo, o 
 
 Abaixo, exemplos de configuração para o "gtasa_vehicleAudioSettings.cfg" do FLA (ignorem a formatação, pois copiei direto da planilha do LibreOffice).
 
-Os mais diferentes são os do Monster's, Walton, Mower, NRG-500, RC Bandit, barcos e helicópteros.
+Os mais diferentes são os dos Monster's, Walton, Mower, NRG-500, RC Bandit, barcos e helicópteros.
 
 - cargobob	4	13	-1	0	0.7	1	-1	1	0	0	3	0	13	0
 - leviathn	4	13	-1	0	0.7	1	-1	1	0	0	3	0	13	0
