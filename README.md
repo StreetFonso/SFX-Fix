@@ -1,7 +1,7 @@
 # SFX-Fix
 Correções e adições nos índices SFX do GTA San Andreas.
 Esta modificação praticamente nada faz no jogo. Ela serve mais para outros mods que podem mudar os id's originais dos sons do jogo, como VehFuncs e FLA.
-Para instalá-la, basta botar numa pasta dentro do Modloader.
+Para instalá-la, basta botar no Modloader.
 Ainda estou estudando para mexer nas falas dos NPC's. Nesta primeira versão, somente mexi no GENRL, e foi o seguinte:
 - Corrigidos os "enginesounds" de carro/caminhão 15, 14; 56, 55; 91, 90; 97, 96 e 123, 122;
 - Corrigidos os "enginesounds" da Faggio para que funcionem com veículos adicionados que usem seus sons;
@@ -13,7 +13,7 @@ Assim, os seguintes "enginesounds" ficam disponíveis:
 - 23, 22 para motos;
 - 20 e 24 para barcos;
 - 13 para helicópteros;
-- 9 para avião (esse tem 4 slots, sendo os dois primeiros idênticos ao 54);
+- 9 para aeronave a jato (muito útil para aviões adicionados);
 - 111, 110 para carro RC.
 
 O que descobri sobre o índice dos arquivos de áudio extraídos com o Alci's SAAT?
@@ -42,7 +42,9 @@ Para descobrir a posição da amostra, é preciso importar o som num editor de �
 O "sound_00#.unknown_16" desconfio fortemente que é a posição da amostra inicial, o "A" do exemplo acima.
 Para os tipos car, bike, quad e m_truck, o jogo usa dois bancos de som, sendo o primeiro com três (aceleração, alta rotação e desaceleração) e o segundo com dois slots (ponto morto e debrear).
 
-Para os tipos boat, heli, plane e bmx o jogo usa um banco de som com dois slots (alta rotação e ponto morto).
+Para os tipos boat, heli e bmx o jogo usa um banco de som com dois slots (alta rotação e ponto morto).
+
+Para o tipo plane o jogo usa o primeiro banco de som com dois slots (aparentemente só usa o primeiro slot) e o segundo banco com dois slots que somente é usado no tráfego aéreo do jogo (aparentemente só usa o primeiro slot).
 
 Para um carro RC, o jogo usa dois bancos de som, sendo o primeiro com três slots (aceleração, alta rotação e desaceleração) e o segundo com um slot (debrear).
 
