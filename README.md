@@ -4,7 +4,7 @@ Esta modificação praticamente nada faz no jogo. Ela serve mais para outros mod
 Para instalá-la, basta descompactar e botar no Modloader.
 Ainda estou estudando para mexer nas falas dos NPC's. Nesta primeira versão, somente mexi no GENRL, e foi o seguinte:
 - Corrigidos os "enginesounds" de carro/caminhão 15, 14; 56, 55; 91, 90; 97, 96 e 123, 122;
-- Corrigidos os "enginesounds" da Faggio para que funcionem com veículos adicionados que usem seus sons;
+- Corrigidos os "enginesounds" da Faggio/Pizzaboy, Baggage/Tug, Forklift, Kart/Mower para que funcionem com veículos adicionados que usem seus sons;
 - Adicionados os "enginesounds" da PCJ-600 do VCS nos 23,22;
 - Adicionados cinco novas buzinas (id's 13 à 18), porém ainda não sei como fazer funcionar um id maior que "9".
 
@@ -52,7 +52,7 @@ Não testei para os tipos trailer e train.
 
 A diferença entre o id do "enginesounds" e o "Bank_###" é "6". Por exemplo, o "Bank_008" corresponde ao "enginesounds" "14".
 
-Abaixo, exemplos de configuração para o "gtasa_vehicleAudioSettings.cfg" do FLA (ignorem a formatação, pois copiei direto da planilha do LibreOffice).
+Abaixo, exemplos de configuração para o "gtasa_vehicleAudioSettings.cfg" do FLA (ignorem a formatação, pois copiei direto da planilha do LibreOffice). Está incluído no download a minha configuração.
 
 Os mais diferentes são os dos Monster's, Walton, Mower, NRG-500, RC Bandit, barcos e helicópteros.
 
