@@ -99,5 +99,5 @@ Os mais diferentes são os dos Monster's, Walton, Mower, NRG-500, RC Bandit, bar
 - cadrona	0	123	122	0	0.78	1	8	1	2	0	4	0	1	0
 - solair	0	123	122	0	0.78	1	3	1.12246	2	0	11	0	4	0
 - virgo	0	123	122	0	0.7	1	3	0.943874	2	0	4	0	1	0
-- #Skate Mod Remake: renomear "Bank_116" do mod para "Bank_008".
-- sktbd	2	14	14	2	0.7	1	-1	1	-1	0	13	1	-1	0
+- #Skate Mod Remake: renomear "Bank_116" do mod para "Bank_013".
+- sktbd	2	19	19	2	0.7	1	-1	1	-1	0	13	1	-1	0
