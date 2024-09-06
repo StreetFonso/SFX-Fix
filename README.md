@@ -13,7 +13,7 @@ Assim, os seguintes "enginesounds" ficam disponíveis:
 - 23, 22 e 67,66 para motos;
 - 20 e 24 para barcos;
 - 13 para helicópteros;
-- 9 para aeronave a jato (muito útil para aviões adicionados) e 107 para a hélice;
+- 9 para aeronave a jato (muito útil para aviões adicionados) e 107 para à hélice;
 - 111, 110 para carro RC.
 
 O que descobri sobre o índice dos arquivos de áudio extraídos com o Alci's SAAT?
