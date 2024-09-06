@@ -4,16 +4,16 @@ Esta modificação praticamente nada faz no jogo. Ela serve mais para outros mod
 Para instalá-la, basta descompactar e botar no Modloader.
 Ainda estou estudando para mexer nas falas dos NPC's. Nesta primeira versão, somente mexi no GENRL, e foi o seguinte:
 - Corrigidos os "enginesounds" de carro/caminhão 15, 14; 56, 55; 91, 90; 97, 96 e 123, 122;
-- Corrigidos os "enginesounds" da Faggio/Pizzaboy, Baggage/Tug, Forklift, Kart/Mower para que funcionem com veículos adicionados que usem seus sons;
-- Adicionados os "enginesounds" da PCJ-600 do VCS nos 23,22;
+- Corrigidos os "enginesounds" da Faggio/Pizzaboy, Baggage/Tug, Forklift, Kart/Mower, Caddy para que funcionem com veículos adicionados que usem seus sons;
+- Adicionados os "enginesounds" da PCJ-600 e Streetfighter do VCS, e do Dodo do III nos 23,22, 67,66 e 107, respectivamente;
 - Adicionados cinco novas buzinas (id's 13 à 18), porém ainda não sei como fazer funcionar um id maior que "9".
 
 Assim, os seguintes "enginesounds" ficam disponíveis:
 - 15, 14; 43, 42; 50, 49; 56, 55; 73, 72; 91, 90; 97, 96; 117, 116 e 123, 122 para carros/caminhões;
-- 23, 22 para motos;
+- 23, 22 e 67,66 para motos;
 - 20 e 24 para barcos;
 - 13 para helicópteros;
-- 9 para aeronave a jato (muito útil para aviões adicionados);
+- 9 para aeronave a jato (muito útil para aviões adicionados) e 107 para a hélice;
 - 111, 110 para carro RC.
 
 O que descobri sobre o índice dos arquivos de áudio extraídos com o Alci's SAAT?
@@ -48,13 +48,15 @@ Para o tipo plane o jogo usa o primeiro banco de som com dois slots (aparentemen
 
 Para um carro RC, o jogo usa dois bancos de som, sendo o primeiro com três slots (aceleração, alta rotação e desaceleração) e o segundo com um slot (debrear).
 
+Para uma aeronave RC, o jogo usa somente o segundo banco de som com um slot.
+
 Não testei para os tipos trailer e train.
 
-A diferença entre o id do "enginesounds" e o "Bank_###" é "6". Por exemplo, o "Bank_008" corresponde ao "enginesounds" "14".
+A diferença entre o id do "enginesounds" e o "Bank_###" do arquivo GENRL é "6", pois o primeiro arquivo FEET ocupa de 0 a 6, por isso que se não é definido o "enginesound" para um veículo adicionado o jogo usará "0", que são sons de passos do Bank_001 do FEET. Por exemplo, o "Bank_008" do GENRL corresponde ao "enginesounds" "14" e o "Bank_020" do SPC_PA corresponde ao "709".
 
 Abaixo, exemplos de configuração para o "gtasa_vehicleAudioSettings.cfg" do FLA (ignorem a formatação, pois copiei direto da planilha do LibreOffice). Está incluído no download a minha configuração.
 
-Os mais diferentes são os dos Monster's, Walton, Mower, NRG-500, RC Bandit, barcos e helicópteros.
+Os mais diferentes são os dos Monster's, Walton, Mower, NRG-500, PCJ-600, RC Bandit, barcos e helicópteros.
 
 - cargobob	4	13	-1	0	0.7	1	-1	1	0	0	3	0	13	0
 - leviathn	4	13	-1	0	0.7	1	-1	1	0	0	3	0	13	0
@@ -63,7 +65,8 @@ Os mais diferentes são os dos Monster's, Walton, Mower, NRG-500, RC Bandit, bar
 - marquis	3	20	20	0	0.7	1	13	1	-1	0	3	0	19	0
 - reefer	3	20	20	2	0.85	1	-1	1	-1	0	3	0	19	0
 - tropic	3	20	20	2	0.85	1	-1	1	-1	0	9	0	19	0
-- nrg500	1	23	22	2	0.65	1	6	1.18921	-1	0	5	0	29	0
+- nrg500	1	67	66	2	0.65	1	6	1.18921	-1	0	5	0	29	0
+- pcj600	1	23	22	2	0.7	1.18921	6	1.12246	-1	0	7	0	29	0
 - jetmax	3	24	24	1	0.85	1	-1	1	-1	0	3	0	19	0
 - speeder	3	24	24	0	0.7	1	-1	1	-1	0	3	0	19	0
 - squalo	3	24	24	0	0.7	1	-1	1	-1	0	3	0	19	0
